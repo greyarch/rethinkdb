@@ -9,6 +9,6 @@ WORKDIR /data
 
 EXPOSE 28015 29015 8080
 
-ENTRYPOINT ["/usr/bin/rethinkdb"]
+ENTRYPOINT ["rethinkdb"]
 
 CMD ["--bind", "all"]
